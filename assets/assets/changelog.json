@@ -1,0 +1,39 @@
+{
+  "versions": [
+    {
+      "version": "1.0.0",
+      "build": 4,
+      "date": "2024-11-27",
+      "features": [
+        {
+          "icon": "undo",
+          "title": "Shake to Undo",
+          "titleDe": "Schütteln zum Rückgängig",
+          "description": "Accidentally removed an item? Just shake your device to restore it!",
+          "descriptionDe": "Versehentlich ein Element entfernt? Schüttle einfach dein Gerät um es wiederherzustellen!"
+        },
+        {
+          "icon": "view_list",
+          "title": "List View Option",
+          "titleDe": "Listenansicht",
+          "description": "Switch between card and list view in the inventory filter settings.",
+          "descriptionDe": "Wechsle zwischen Karten- und Listenansicht in den Inventar-Filtereinstellungen."
+        },
+        {
+          "icon": "filter_alt",
+          "title": "Improved Filters",
+          "titleDe": "Verbesserte Filter",
+          "description": "Simplified sorting options and improved filter experience in jobs section.",
+          "descriptionDe": "Vereinfachte Sortieroptionen und verbesserte Filtererfahrung im Jobs-Bereich."
+        },
+        {
+          "icon": "qr_code_scanner",
+          "title": "Live Scan Mode",
+          "titleDe": "Live Scan Modus",
+          "description": "Renamed 'Set Mode' to 'Live Scan' for better clarity.",
+          "descriptionDe": "'Am Set' wurde in 'Live Scan' umbenannt für bessere Verständlichkeit."
+        }
+      ]
+    }
+  ]
+}
