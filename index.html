@@ -31,6 +31,15 @@
 
   <title>TakeReady</title>
   <link rel="manifest" href="manifest.json">
+
+  <style>
+    /* Prevent Safari/Chrome two-finger trackpad swipe from triggering
+       browser back/forward navigation while the user horizontally scrolls
+       inside Flutter widgets (e.g. the Excel booking timeline). */
+    html, body {
+      overscroll-behavior-x: contain;
+    }
+  </style>
 </head>
 <body>
   <script src="flutter_bootstrap.js" async></script>
