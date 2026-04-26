@@ -290,7 +290,8 @@
       "available": "Available",
       "inUse": "Booked",
       "maintenance": "Maintenance",
-      "damaged": "Damaged"
+      "damaged": "Damaged",
+      "maintenanceOrDamaged": "Maintenance / Damaged"
     },
     "jobStatuses": {
       "draft": "Draft",
@@ -425,7 +426,7 @@
     "returnWithMissing": "Return with Missing",
     "verified": "Verified",
     "scanned": "Scanned",
-    "manuallyCheckedIn": "Manually checked in",
+    "manuallyCheckedIn": "Manually\nchecked in",
     "needsReturn": "Needs Return",
     "alreadyReturned": "Already Returned",
     "scanItemsToVerify": "Scan items to verify",
@@ -437,7 +438,12 @@
     "extraItemsReturnFound": "{count} extra items to return",
     "extraItemsReturnQuestion": "These items were not checked out for {jobTitle}. Do you still want to return them?",
     "returnExtras": "Return All",
-    "returnWithoutExtras": "Return Only Job Items"
+    "returnWithoutExtras": "Return Only Job Items",
+    "returnSubstituteTitle": "Confirm Substitute Return",
+    "returnSubstituteMessage": "This item was not checked out for this job. It can be returned as a substitute for \"{original}\".",
+    "returnSubstituteConfirm": "Return as Substitute",
+    "substitutionSummaryTitle": "{count} item(s) substituted",
+    "substitutionSummarySubtitle": "You scanned different physical items than originally reserved. The job has been updated to reflect what you actually took."
   },
   "inspection": {
     "sectionTitle": "Safety Inspection",
@@ -794,6 +800,7 @@
     "nameHint": "e.g. Important, Work, Personal",
     "nameRequired": "Name is required",
     "preview": "Preview",
+    "isCategory": "Label is\na category",
     "labelName": "Label Name",
     "selectColor": "Select Color",
     "selectIcon": "Select Icon (optional)",
@@ -834,6 +841,22 @@
     "selectIcon": "Select icon"
   },
   "jobs": {
+    "planner": {
+      "title": "Plan items",
+      "done": "Done",
+      "plannedCount": "{} planned",
+      "weight": "{} kg",
+      "rentalPerDay": "€{}/day",
+      "unavailableHintTitle": "Limited availability",
+      "unavailableHintCount": "You planned {planned}, but only {available} of these are available during the job's time frame.",
+      "unavailableHintGeneric": "Not available during the job's time frame.",
+      "unavailableHintInUse": "Currently checked out or in use.",
+      "unavailableHintMaintenance": "In service / needs maintenance.",
+      "unavailableHintDamaged": "Damaged — not operational.",
+      "unavailableHintOnJob": "Booked: {job} ({range})",
+      "unavailableTagJob": "Job",
+      "unavailableTagRequest": "Request"
+    },
     "availability": {
       "sectionTitle": "Availability in job period",
       "all": "All",

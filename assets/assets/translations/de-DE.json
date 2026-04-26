@@ -290,7 +290,8 @@
       "available": "Verfügbar",
       "inUse": "Belegt",
       "maintenance": "Wartung",
-      "damaged": "Beschädigt"
+      "damaged": "Beschädigt",
+      "maintenanceOrDamaged": "Wartung / Defekt"
     },
     "jobStatuses": {
       "draft": "Entwurf",
@@ -425,7 +426,7 @@
     "returnWithMissing": "Mit Fehlenden zurückgeben",
     "verified": "Verifiziert",
     "scanned": "Gescannt",
-    "manuallyCheckedIn": "Manuell eingecheckt",
+    "manuallyCheckedIn": "Manuell\neingecheckt",
     "needsReturn": "Rückgabe ausstehend",
     "alreadyReturned": "Bereits zurückgegeben",
     "scanItemsToVerify": "Items scannen zum Verifizieren",
@@ -437,7 +438,12 @@
     "extraItemsReturnFound": "{count} zusätzliche Items zur Rückgabe",
     "extraItemsReturnQuestion": "Diese Items wurden nicht für {jobTitle} ausgeliehen. Möchtest du sie trotzdem zurückgeben?",
     "returnExtras": "Alle zurückgeben",
-    "returnWithoutExtras": "Nur Job-Items zurückgeben"
+    "returnWithoutExtras": "Nur Job-Items zurückgeben",
+    "returnSubstituteTitle": "Ersatzrückgabe bestätigen",
+    "returnSubstituteMessage": "Dieses Item wurde nicht für diesen Job ausgeliehen. Es kann als Ersatz für \"{original}\" zurückgegeben werden.",
+    "returnSubstituteConfirm": "Ersatz zurückgeben",
+    "substitutionSummaryTitle": "{count} Artikel ersetzt",
+    "substitutionSummarySubtitle": "Du hast andere physische Geräte gescannt als ursprünglich reserviert. Der Job wurde entsprechend angepasst."
   },
   "inspection": {
     "sectionTitle": "Sicherheitsprüfung",
@@ -794,6 +800,7 @@
     "nameHint": "z.B. Wichtig, Arbeit, Privat",
     "nameRequired": "Name ist erforderlich",
     "preview": "Vorschau",
+    "isCategory": "Label ist\neine Kategorie",
     "labelName": "Label Name",
     "selectColor": "Farbe wählen",
     "selectIcon": "Icon wählen (optional)",
@@ -834,6 +841,22 @@
     "selectIcon": "Symbol wählen"
   },
   "jobs": {
+    "planner": {
+      "title": "Items planen",
+      "done": "Fertig",
+      "plannedCount": "{} geplant",
+      "weight": "{} kg",
+      "rentalPerDay": "€{}/Tag",
+      "unavailableHintTitle": "Eingeschränkt verfügbar",
+      "unavailableHintCount": "Du hast {planned} geplant, aber nur {available} davon sind im Zeitraum des Jobs verfügbar.",
+      "unavailableHintGeneric": "Im Zeitraum des Jobs nicht verfügbar.",
+      "unavailableHintInUse": "Aktuell ausgeliehen oder im Einsatz.",
+      "unavailableHintMaintenance": "Im Service / wartungsbedürftig.",
+      "unavailableHintDamaged": "Defekt — nicht einsatzbereit.",
+      "unavailableHintOnJob": "Belegt: {job} ({range})",
+      "unavailableTagJob": "Job",
+      "unavailableTagRequest": "Anfrage"
+    },
     "availability": {
       "sectionTitle": "Verfügbarkeit im Job-Zeitraum",
       "all": "Alle",
