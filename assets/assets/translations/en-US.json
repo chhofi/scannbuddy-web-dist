@@ -593,6 +593,14 @@
     "addItems": "Add Items",
     "itemsAdded": "Items added successfully",
     "noItems": "No items in this kit",
+    "kitPlanner": {
+      "title": "Plan kit contents",
+      "tabItems": "Equipment",
+      "tabKits": "Import from kit",
+      "searchHint": "Search equipment",
+      "noOtherKits": "No other kits to import from",
+      "kitItemCount": "{} items"
+    },
     "container": "Container",
     "selectContainer": "Select Container",
     "containerObject": "Container Object",
@@ -975,6 +983,18 @@
       "subtleSubtitle": "Light vibrations only",
       "standard": "Standard",
       "standardSubtitle": "Full haptic feedback (recommended)"
+    },
+    "aiAssistant": "AI Assistant",
+    "aiModel": {
+      "title": "Chat model",
+      "haiku45": {
+        "label": "Claude Haiku 4.5",
+        "description": "Default model. Best balance of quality, speed, and cost."
+      },
+      "minimaxM2": {
+        "label": "MiniMax M2",
+        "description": "Cheaper reasoning model. Experimental for long tool chains."
+      }
     },
     "editProfile": "Edit Profile",
     "scanner": "Scanner",

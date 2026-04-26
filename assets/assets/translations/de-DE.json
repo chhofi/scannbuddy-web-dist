@@ -593,6 +593,14 @@
     "addItems": "Objekte hinzufügen",
     "itemsAdded": "Objekte erfolgreich hinzugefügt",
     "noItems": "Keine Objekte in diesem Kit",
+    "kitPlanner": {
+      "title": "Kit-Inhalt planen",
+      "tabItems": "Ausrüstung",
+      "tabKits": "Aus Kit übernehmen",
+      "searchHint": "Ausrüstung suchen",
+      "noOtherKits": "Keine weiteren Kits zum Übernehmen",
+      "kitItemCount": "{} Objekte"
+    },
     "container": "Behälter",
     "selectContainer": "Behälter auswählen",
     "containerObject": "Behälter-Objekt",
@@ -975,6 +983,18 @@
       "subtleSubtitle": "Nur leichte Vibrationen",
       "standard": "Standard",
       "standardSubtitle": "Volles haptisches Feedback (empfohlen)"
+    },
+    "aiAssistant": "KI-Assistent",
+    "aiModel": {
+      "title": "Chat-Modell",
+      "haiku45": {
+        "label": "Claude Haiku 4.5",
+        "description": "Standard-Modell. Beste Balance aus Qualität, Geschwindigkeit und Kosten."
+      },
+      "minimaxM2": {
+        "label": "MiniMax M2",
+        "description": "Günstigeres Reasoning-Modell. Experimentell für längere Tool-Ketten."
+      }
     },
     "editProfile": "Profil bearbeiten",
     "scanner": "Scanner",
