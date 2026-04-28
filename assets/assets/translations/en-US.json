@@ -991,6 +991,10 @@
         "label": "Claude Haiku 4.5",
         "description": "Default model. Best balance of quality, speed, and cost."
       },
+      "gemini25Flash": {
+        "label": "Gemini 2.5 Flash",
+        "description": "Robust and ~50% cheaper than Haiku. Huge context window (1M)."
+      },
       "minimaxM2": {
         "label": "MiniMax M2",
         "description": "Cheaper reasoning model. Experimental for long tool chains."
