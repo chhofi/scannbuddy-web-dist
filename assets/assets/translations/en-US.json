@@ -1,7 +1,7 @@
 {
   "app": {
     "name": "TakeReady",
-    "title": "Film Equipment Management"
+    "title": "Inventory Software for Film, Event & AV Rental"
   },
   "profileSetup": {
     "industryTitle": "What's your industry?",
@@ -197,7 +197,12 @@
     "signInWithApple": "Sign in with Apple",
     "signInWithGoogle": "Sign in with Google",
     "signInWithEmail": "Sign in with Email",
-    "signInCancelled": "Sign in was cancelled"
+    "signInCancelled": "Sign in was cancelled",
+    "marketingHeadline": "Your inventory under control — even on the truck.",
+    "marketingFeature1": "Check equipment in and out by scan",
+    "marketingFeature2": "Real-time sync between warehouse and crew",
+    "marketingFeature3": "Offline-ready — works without a connection",
+    "marketingFeature4": "RFID, barcode and QR in one app"
   },
   "validation": {
     "required": "This field is required",
