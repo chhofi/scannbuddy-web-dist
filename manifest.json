@@ -1,11 +1,12 @@
 {
-    "name": "TakeReady",
+    "name": "TakeReady — Inventar-Software für Film-, Event- und AV-Verleih",
     "short_name": "TakeReady",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "background_color": "#07090D",
+    "theme_color": "#07090D",
+    "description": "Mobile Inventar-App für Film-, Event- und AV-Verleih. Equipment per Scan ausgeben, zurücknehmen und in Echtzeit sehen, was wo ist — auch offline im Truck.",
+    "lang": "de",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
